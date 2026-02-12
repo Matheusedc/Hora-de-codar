@@ -7,10 +7,6 @@ def IMC(peso, altura):
     
     return IMC
 
-resultado = IMC(peso, altura)
-
-print(resultado)
-
 def classificacao(resultado):
     
     IMC = resultado
@@ -39,7 +35,11 @@ def classificacao(resultado):
         
         return "Obesidade grau III"
     
-    
+ 
+resultado = float(IMC(peso, altura))
+
+print(f"resultado: {resultado:.2f}")
+
 resultado2 = classificacao(resultado)
 
 print(resultado2)
