@@ -7,10 +7,6 @@ lista_ingredientes = ["café", "açucar", "água"]
 lista_utensilhos = ["colher", "garrafa de café", "coador", "panela", "fogão"]
 
 
-if cafe_sem_acucar:
-    
-   lista_ingredientes.remove("açucar")
-    
 # iniciar
 
 lista_ingredientes.remove("água")
@@ -18,6 +14,7 @@ lista_utensilhos.remove("panela")
 lista_utensilhos.remove("fogão")
 
 esquentar_agua = []
+
 
 esquentar_agua.append(lista_ingredientes[2])
 esquentar_agua.append(lista_utensilhos[3])
