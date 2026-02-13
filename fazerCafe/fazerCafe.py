@@ -1,23 +1,30 @@
 # Preparação
 
 iniciar = True
-cafe_com_acucar = False
+cafe_sem_acucar = True
 
-if cafe_com_acucar:
-    
-    print("cafe com açucar")
-    
-else:
-    
-    print("Cafe sem açucar")
-    
+lista_ingredientes = ["café", "açucar", "água"]
+lista_utensilhos = ["colher", "garrafa de café", "coador", "panela", "fogão"]
 
-def ingredientes(cafe_com_acucar):
-    
-    lista_ingredientes = []
-    lista_utensilhos = []
-    
-    
-def cafe(iniciar, cafe_com_acucar):
-    
 
+if cafe_sem_acucar:
+    
+   lista_ingredientes.remove("açucar")
+    
+# iniciar
+
+lista_ingredientes.remove("água")
+lista_utensilhos.remove("panela")
+lista_utensilhos.remove("fogão")
+
+esquentar_agua = []
+
+esquentar_agua.append(lista_ingredientes[2])
+esquentar_agua.append(lista_utensilhos[3])
+esquentar_agua.append(lista_utensilhos[4])
+
+print("lista_ingredientes", lista_ingredientes)
+print(20*"-")
+print("lista_utensilhos", lista_utensilhos)
+print(20*"-")
+print("esquentar_agua", esquentar_agua)
