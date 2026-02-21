@@ -49,4 +49,10 @@ print("lista_utensilhos", lista_utensilhos)
 print(20*"-")
 print("esquentar_agua", esquentar_agua)
 print(20*"-")
-print("limpar_garrada", limpar_garrada)
+print("Esquentar garrada de café", limpar_garrada)
+
+
+# Fazer café
+
+cafe = []
+
