@@ -87,3 +87,8 @@ Crie um programa que verifica se um ano é bissexto.
 ● Masnãoébissexto se for divisível por 100, exceto se for divisível por 400.
 '''
 
+entrada = int(2020)
+
+divisao = entrada / 4
+
+divisao100 = entrada / 100
